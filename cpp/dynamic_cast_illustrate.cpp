@@ -1,6 +1,8 @@
 /**
-Output of program will be as below, illustrating dynamic_cast operates
-runtime to check, if casting can be done or not:
+Output of program will be as below.
+
+illustrating dynamic_cast operates runtime,
+if casting can be done or it cannot be done:
 >>>>>>>>>>>>>>>>>>
 1. derive object after dynamic cast:0xa00000590
 2. derive1 obj after dynamic cast NULL
