@@ -12,10 +12,11 @@ LOCAL_MODULE := sample_exe
 # local path already assumed for LOCAL_SRC_FILES
 LOCAL_SRC_FILES := sample_exe.cpp
 
-LOCAL_CPP_INCLUDES := $(LOCAL_PATH)/inc
+# there is nothing called CPP_INCLUDES
 
-# libraries include similar to including for GCC
-LD_LIBS := -lbinder
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/inc system/libbase/include
+
+LOCAL_SHARED_LIBRARIES = libbinder
 
 LOCAL_C_FLAGS := -Wall -Werror
 
