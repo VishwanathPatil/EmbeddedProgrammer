@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dates</string>
+    <string name="add_event">Add Event</string>
+    <string name="show_events">Show Events</string>
+    <string name="event_name_hint">Event Name</string>
+    <string name="event_date_hint">Event Date (dd-mm-yyyy)</string>
+    <string name="no_events">No events found.</string>
+</resources>

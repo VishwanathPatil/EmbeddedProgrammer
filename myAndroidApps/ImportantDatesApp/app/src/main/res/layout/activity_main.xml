@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name" />
+
+    <EditText
+        android:id="@+id/editEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Date (dd-mm-yyyy)" />
+
+    <Button
+        android:id="@+id/btnAddEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Event" />
+
+    <Button
+        android:id="@+id/btnShowEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Events" />
+
+    <TextView
+        android:id="@+id/txtEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Events will be displayed here"
+        android:padding="8dp" />
+	
+	<Button
+    android:id="@+id/btnExportDb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Export Database" />
+
+	<Button
+    android:id="@+id/btnImportDb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Import Database" />
+
+
+</LinearLayout>
